@@ -16,6 +16,60 @@ HealthVision AI Assistant is an intelligent symptom analysis tool powered by **G
 - **Mobile-First Design** responsive across all devices
 - **Emergency Warning System** for critical symptoms
 - **Health Education** module powered by Gemini 3
+## ✨ Advanced Features
+
+### 🌐 Multi-Language Support
+- **10+ languages** including English, Spanish, Arabic, Hindi, Chinese
+- **Real-time translation** using Gemini 3's language capabilities
+- **Accurate medical terminology** preservation across languages
+
+### 📸 Image Symptom Analysis
+- **Upload photos** of rashes, injuries, swelling
+- **Gemini Vision** analyzes visual symptoms
+- **Combined analysis** with text descriptions
+
+### 💊 Drug Interaction Checker
+- **Real-time medicine compatibility** analysis
+- **Risk level assessment** (High/Medium/Low)
+- **Alternative suggestions** powered by Gemini 3
+
+### 📊 History & Tracking
+- **Session-based history** storage
+- **Timeline view** of symptoms and analyses
+- **Export to PDF** for doctor visits
+
+### 🎤 Voice Input/Output
+- **Voice-to-text** for symptom description
+- **Text-to-speech** for results
+- **Multi-language voice** support
+
+### 📄 PDF Report Generation
+- **Professional medical reports**
+- **Shareable format** for healthcare providers
+- **Includes all analysis details**
+
+### ⚡ Quick Examples Library
+- **Common symptom templates**
+- **One-click loading** for testing
+- **Educational examples** for learning
+
+### 🎨 Smart Severity Display
+- **Color-coded severity** (Green/Yellow/Red)
+- **Emergency warnings** with animations
+- **Clear visual hierarchy**
+
+To Deploy:
+npm install
+
+Set environment variables in Replit Secrets:
+
+GEMINI_API_KEY = Your actual key
+
+Run:
+
+bash
+npm start
+
 ## 🚀 Live Demo
 👉 **[Try it live on Replit]
 https://fa8bfe3b-07df-42e5-8ed4-01b71e148a8a-00-qxnl67odjue0.picard.replit.dev/
