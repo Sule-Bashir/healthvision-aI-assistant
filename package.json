@@ -1,0 +1,26 @@
+{
+  "name": "healthvision-ai",
+  "version": "1.0.0",
+  "description": "Gemini 3 Hackathon Project - AI Health Assistant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "gemini3",
+    "ai",
+    "healthcare",
+    "hackathon",
+    "google",
+    "medical-ai"
+  ]
+}
