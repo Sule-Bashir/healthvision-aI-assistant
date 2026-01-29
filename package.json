@@ -1,26 +1,49 @@
 {
-  "name": "healthvision-ai",
-  "version": "1.0.0",
-  "description": "Gemini 3 Hackathon Project - AI Health Assistant",
+  "name": "healthvision-ai-assistant",
+  "version": "3.0.0",
+  "description": "Advanced AI Health Assistant with multi-language, image upload, drug interactions, history tracking and voice features using Gemini 3",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "pdfkit": "^0.14.0",
+    "multer": "^1.4.5-lts.1",
+    "speak-tts": "^2.0.8",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   },
   "keywords": [
     "gemini3",
-    "ai",
-    "healthcare",
-    "hackathon",
-    "google",
-    "medical-ai"
-  ]
+    "multi-language-health",
+    "drug-interaction-checker",
+    "image-symptom-analysis",
+    "voice-health-assistant",
+    "medical-history-tracking",
+    "healthcare-ai",
+    "gemini-hackathon",
+    "google-deepmind"
+  ],
+  "author": "Sule Bashir <sulebashir001@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sule-Bashir/healthvision-aI-assistant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sule-Bashir/healthvision-aI-assistant/issues"
+  },
+  "homepage": "https://github.com/Sule-Bashir/healthvision-aI-assistant#readme"
 }
